@@ -1,9 +1,9 @@
-java.util.Map;
+java.util.HashMap;
 
 class Solution {
     public int maximumLengthSubstring(String s) {
         int l = 0, r = 0, _max = 1;
-        Map<Character, Integer> counter = new HashMap<>();
+        HashMap<Character, Integer> counter = new HashMap<>();
         counter.put(s.charAt(0), 1);
 
         while (r < s.length() -1){
