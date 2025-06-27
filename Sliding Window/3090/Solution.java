@@ -1,4 +1,4 @@
-java.util.HashMap;
+import java.util.HashMap;
 
 class Solution {
     public int maximumLengthSubstring(String s) {
