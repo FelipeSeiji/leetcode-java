@@ -18,7 +18,6 @@ class Solution {
     }
 }
 
-
 /*
 * StringBuilder
 O que é:
